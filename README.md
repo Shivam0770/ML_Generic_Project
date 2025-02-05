@@ -45,3 +45,11 @@ It helps to directly trigger setup.py file and is used in requirements.txt. It i
 
 ## We will create Src folder
 In that we will create _init_.py file. So whenever in setup.py the function setup will run for parameter find_package() it will find _init_.py inside src folder and build this whole folder into a package
+
+## Installing Package:-
+We will run the requirements.txt (pip install -r requirements.txt) file and it will run -e . which will call setup file and it will create a folder with all the folders required(ML_generic.egg-info).
+
+## To add created files and changes:-
+1)git add .
+2)git status (to check all changes)
+3)git commit -m "Setup"
